@@ -1,0 +1,237 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Nova Theme</title>
+    <meta name="Nova theme" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" type="image/png" href="assets/images/favicon.png"/>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+          rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css"/>
+    <link rel="stylesheet" href="assets/css/responsive.css"/>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
+
+</head>
+
+<body>
+
+<!-- Navigation
+    ================================================== -->
+<div class="hero-background">
+    <div>
+        <img class="strips" src="assets/images/strips.png">
+    </div>
+    <div class="container">
+        <div class="header-container header">
+            <a class="navbar-brand logo" href="#"> <img class="logo" src="assets/images/haliteLogo.svg"/> </a>
+            <div class="header-right">
+                <a class="navbar-item" href="#goals">Goals</a>
+                <a class="navbar-item" href="#features">MVP Features</a>
+                <a class="navbar-item" href="#demo">Demo</a>
+            </div>
+
+        </div>
+        <!--navigation-->
+
+        <!-- Hero-Section
+          ================================================== -->
+
+        <div class="hero row">
+            <div class="hero-right col-sm-6 col-sm-6">
+                <h1 class="header-headline bold"> Halite III AI Challenge <br></h1>
+                <h4 class="header-running-text light"> A coding competition by Two Sigma opened to programmers of different coding languages. .</h4>
+                <a href="https://halite.io/">
+                    <button class="hero-btn"> Explore Halite</button>
+                </a>
+            </div><!--hero-left-->
+
+            <div class="col-sm-6">
+                <img class="img-thumbnail" src="assets/images/halite_iii.png"/>
+            </div>
+
+            <div><img class="mouse" src="assets/images/mouse.svg"/></div>
+
+        </div><!--hero-->
+
+    </div> <!--hero-container-->
+
+</div><!--hero-background-->
+
+<!-- Goals
+  ================================================== -->
+<div id="goals" class="pricing-background">
+
+    <h2 class="pricing-section-header light text-center">Bot Goals</h2>
+    <h4 class=" pricing-section-sub text-center light">What makes a Halite Bot good ?</h4>
+
+    <div class="pricing-table row">
+        <div class="col-sm-4">
+            <div class="plan">
+                <h3 class="plan-title light">Navigation</h3>
+                <h5 class="monthly">Essential</h5>
+                <ul class="plan-features">
+                    <li>Avoiding Collisions</li>
+                    <li>Finding areas with more halite</li>
+                    <li>Avoids Enemies</li>
+                    <li>Finds cheapest path to deposit</li>
+                </ul>
+            </div>
+        </div><!--col-->
+
+        <div class="col-sm-4">
+            <div class="plan">
+                <h3 class="plan-title light">Resource Control</h3>
+                <h5 class="monthly">More Halite</h5>
+                <ul class="plan-features">
+                    <li>Spawn ships when it makes sense to do so</li>
+                    <li>Decide how to use your ships</li>
+                    <li>Decide how to protect your ships</li>
+                </ul>
+            </div>
+        </div><!--col-->
+
+        <div class="col-sm-4">
+            <div class="plan">
+                <h3 class="plan-title light">Deposits</h3>
+                <h5 class="monthly">Most important</h5>
+                <ul class="plan-features">
+                    <li>Decide on when to return ships</li>
+                    <li>Does a ship have sufficient time to return?</li>
+                    <li>Approximately how much halite will it deposit?</li>
+                    <li>What is the quickest way to deposit?</li>
+                </ul>
+            </div>
+        </div><!--col-->
+    </div>
+</div>
+
+<!-- MVP Features
+  ================================================== -->
+
+<div id="features" class="features-section">
+
+    <div class="features-container row">
+
+        <h2 class="features-headline light">MVP AI FEATURES</h2>
+
+        <div class="col-sm-3 feature">
+
+            <div class="feature-icon feature-no-display">
+                <img class="feature-img" src="assets/images/collisions.svg">
+            </div>
+            <h5 class="feature-head-text feature-no-display"> Near-Collision Free</h5>
+            <p class="feature-subtext light feature-no-display"> In a trial of 20 random games, less than 5% of all ships spawned would ever crash into its own team.</p>
+        </div>
+
+        <div class="col-sm-3 feature">
+            <div class="feature-icon feature-no-display feature-display-mid">
+                <img class="feature-img" src="assets/images/money.svg">
+            </div>
+            <h5 class="feature-head-text feature-no-display feature-display-mid"> Halite Search</h5>
+            <p class="feature-subtext light feature-no-display feature-display-mid"> Look for the closest and best spots to mine halite. Maximize Profit for the win !</p>
+        </div>
+
+        <div class="col-sm-3 feature">
+            <div class="feature-icon feature-no-display feature-display-last">
+                <img class="feature-img" src="assets/images/base.svg">
+            </div>
+            <h5 class="feature-head-text feature-no-display feature-display-last"> Quick Deposits </h5>
+            <p class="feature-subtext light feature-no-display feature-display-last"> When it's the end of the game, it doesn't matter if they crash as long as the ships crash on shipyards or dropoffs</p>
+        </div>
+        <div class="col-sm-3 feature">
+            <div class="feature-icon feature-no-display feature-display-last">
+                <img class="feature-img" src="assets/images/random.svg">
+            </div>
+            <h5 class="feature-head-text feature-no-display feature-display-last"> ML Bot Specific </h5>
+            <p class="feature-subtext light feature-no-display feature-display-last"> Play infinitely many games with random decisions to gather data on best moves</p>
+
+        </div>
+
+        <a href="https://github.com/zhiyuanc1718/apcsa-freedom-project/tree/master/botVersions">
+            <button class="hero-btn"> AI Bot Code</button>
+        </a>
+        <a href="https://github.com/felixz2535/Halite-ML">
+            <button class="hero-btn"> ML Bot Code</button>
+        </a>
+    </div> <!--features-container-->
+</div> <!--features-section-->
+
+
+<!-- Demo
+  ================================================== -->
+
+<div id="demo" class="white-section row">
+
+    <div class="row">
+
+        <div class="col-sm-4 ca">
+            <h2 class="imac-section-header light"> 1 v 1 Lose</h2>
+            <iframe width=auto height=auto src="https://www.youtube.com/embed/30KvMR7h1DE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <h6> Gold-ranked Player defeats our bot</h6>
+        </div>
+
+        <div class="col-sm-4 ca">
+            <h2 class="imac-section-header light"> 1 v 1 Victory</h2>
+            <iframe width=auto height=auto src="https://www.youtube.com/embed/YxeiBRU1_Ks" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <h6> Gold-ranked Player loses to our bot</h6>
+        </div>
+
+        <div class="col-sm-4 ca">
+            <h2 class="imac-section-header light"> 4 Player Battle</h2>
+            <iframe width=auto height=auto src="https://www.youtube.com/embed/OQvFNH8swKI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <h6> Gold-ranked vs Silver-ranked vs our bot</h6>
+        </div>
+    </div>
+</div><!--white-section-text-section--->
+
+<!-- Footer
+  ================================================== -->
+
+<div class="footer">
+
+    <div class="container">
+        <div class="row">
+
+            <div class="col-sm-2"></div>
+
+            <div class="col-sm-8 webscope">
+                <span class="webscope-text"> A free template by </span>
+                <a href="https://webscopeapp.com"> <img src="assets/images/webscope.svg"/> </a>
+            </div>
+            <!--webscope-->
+
+            <div class="col-sm-2">
+                <div class="social-links">
+                    <a href="https://twitter.com/webscopeapp"> <img class="social-link"
+                                                                    src="assets/images/twitter.svg"/> </a>
+                    <a href="https://www.facebook.com/webscopeapp/?ref=aymt_homepage_panel"> <img
+                            src="assets/images/facebook.svg"/> </a>
+                </div>
+                <!--social-links-->
+            </div>
+            <!--social-links-parent-->
+
+        </div>
+        <!--row-->
+
+    </div>
+    <!--container-->
+</div>
+<!--footer-->
+
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"
+        integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+        crossorigin="anonymous"></script>
+
+<script src="assets/js/script.js"></script>
+
+</body>
+
+</html>
